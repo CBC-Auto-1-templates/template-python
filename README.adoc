@@ -1,0 +1,17 @@
+== Automation DSL Template for Python
+
+This is a boilerplate template to use as a basis for building Python applications.
+
+In this template we have a simple WSGI (Web Server Gateway Interface) application using Flask.
+
+To start the server, run the following commands:
+
+1. Install dependencies by running the command
+
+    pip install -r requirements.txt
+
+2. Start the webserver by running the command
+
+    flask run --port=8080
+
+Once the server is started, navigate to http://localhost:8080/hello[] to view the result of making a GET request on the path ``/hello``
